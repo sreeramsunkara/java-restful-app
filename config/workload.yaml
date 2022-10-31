@@ -27,9 +27,9 @@ spec:
         type: openapi
         location: 
           path: "/api-docs"
-        owner: 
-        system: 
-        description: 
+        owner: "default-team"
+        system: "java-rest-services"
+        description: "Customer Profile API"
   source:
     git:
       ref:
