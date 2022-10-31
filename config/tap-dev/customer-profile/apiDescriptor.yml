@@ -13,9 +13,9 @@ metadata:
     carto.run/workload-name: customer-profile
 spec:
   type: openapi
-  description: null
-  system: null
-  owner: null
+  description: Customer Profile API
+  system: java-rest-services
+  owner: default-team
   location:
     path: /api-docs
     baseURL:
