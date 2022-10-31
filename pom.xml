@@ -20,7 +20,7 @@
     <properties>
         <java.version>11</java.version>
         <springdoc.version>1.6.9</springdoc.version>
-        <testcontainers.version>1.17.3</testcontainers.version>
+        <testcontainers.version>1.17.5</testcontainers.version>
         <snakeyaml.version>1.32</snakeyaml.version>
     </properties>
 
@@ -70,7 +70,6 @@
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
-            <version>42.5.0</version>
             <scope>runtime</scope>
         </dependency>
 
@@ -83,7 +82,6 @@
         <dependency>
             <groupId>org.testcontainers</groupId>
             <artifactId>postgresql</artifactId>
-                 <version>1.17.5</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
